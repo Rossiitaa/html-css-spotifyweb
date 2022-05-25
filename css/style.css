@@ -20,10 +20,15 @@ body {
     flex-direction: column;
 }
 .end-user {
-    margin-top: 250px;
+    margin-top: 200px;
+}
+.jdoe  {
+    color: #fff;
 }
 
  /* main */
+
+ /* menu left*/
 .menu {
     width: 230px;
     height: 100%;
@@ -64,7 +69,6 @@ body {
 
 /* user */
 .user i {
-
     margin-right: 5px;
 }
 
@@ -72,11 +76,36 @@ hr {
     margin: 10px 0;
 }
 
+/* album */
+.album {
+    width: 100%;
+    height: 100%;
+}
 
 
 
 /* footer */
+footer {
+    background-color: #282828;
+    padding: 30px;
+    width: 100%;
+    height: 109px;
+}
 
+.inf-song img {
+    width: 40px;
+    float: left; 
+    margin-right: 10px
+}
+.title-singer {
+    color: #fff;
+}
+.title-song {
+    
+}
+.sinister {
+    
+}
 
 
 
