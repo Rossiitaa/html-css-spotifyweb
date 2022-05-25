@@ -7,4 +7,90 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #141922;
+    color: #676a70;
 }
+.flex-d {
+    display: flex;
+}
+.jc-between {
+    justify-content: space-between;
+}
+.column-dir {
+    flex-direction: column;
+}
+.end-user {
+    margin-top: 250px;
+}
+
+ /* main */
+.menu {
+    width: 230px;
+    height: 100%;
+    padding: 20px;
+    background-color: #000;
+}
+.logo {
+    width: 70%;
+    margin-bottom: 20px;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    margin-bottom: 15px;
+}
+.top-menu {
+    margin-bottom: 10px;
+}
+
+/* playlist */
+.playlist {
+    color: #fff;
+}
+.space-p {
+    margin: 25px 0;
+}
+.crea-pl {
+    padding: 2px 4px 2px 11px;
+    background-color: #676a70;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+.create {
+    margin-left: 10px;
+}
+
+/* user */
+.user i {
+
+    margin-right: 5px;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+/* breakpoint */
+/* 701px */
+@media all and (max-width: 701px) {}
+
+/* 601px */
+@media all and (max-width: 601px) {}
+
+
+/* 250px */
+@media all and (max-width: 250px) {}
