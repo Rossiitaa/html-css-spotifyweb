@@ -20,18 +20,23 @@ body {
     flex-direction: column;
 }
 .end-user {
-    margin-top: 200px;
+    margin-top: 230px;
 }
 .jdoe  {
     color: #fff;
 }
 
  /* main */
+main {
+    height: calc(100vh - 90px);
+    overflow: hidden;
+    display: flex;
+}
 
- /* menu left*/
+/* menu left*/
 .menu {
-    width: 230px;
-    height: 100%;
+    width: 200px;
+    height: calc(100vh - 90px);
     padding: 20px;
     background-color: #000;
 }
@@ -76,11 +81,14 @@ hr {
     margin: 10px 0;
 }
 
+
 /* album */
 .album {
     width: 100%;
     height: 100%;
+    overflow: auto;
 }
+
 
 
 
@@ -88,8 +96,8 @@ hr {
 footer {
     background-color: #282828;
     padding: 30px;
-    width: 100%;
-    height: 109px;
+    height: 90px;
+    z-index: 2;
 }
 
 .inf-song img {
@@ -114,12 +122,13 @@ footer {
 
 
 /* breakpoint */
-/* 701px */
+/* 701px md*/
 @media all and (max-width: 701px) {}
 
-/* 601px */
+
+/* 601px s*/
 @media all and (max-width: 601px) {}
 
 
-/* 250px */
-@media all and (max-width: 250px) {}
+/* 250px xs*/
+@media all and (max-width: 500px) {}
