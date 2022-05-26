@@ -157,26 +157,54 @@
     </main>
 
     <footer class="flex-d jc-between">
-        
-        <div class="flex-d jc-between">
-            <span class="inf-song">
+            <!-- player-left -->
+        <div class="foot-player-left">
+            <div class="inf-song">
 
                 <img src="./img/sinister.jpeg" alt="img-song">
 
-                <span class="sinister">
                     <span class="title-singer">Sinister</span>
+
+                    <span class="icon-song">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-folder"></i>
+                    </span>
+
                     <span class="title-song">Brano Nome</span>
-                </span>
 
-                <span class="">
-                    <i class="fa-solid fa-heart"></i>
-                    <i class="fa-solid fa-folder"></i>
-                </span>
-
-            </span>
+            </div>
         </div>
-        <span class="flex-d jc-between"></span>
-        <span class="flex-d jc-between"></span>
+
+            <!-- player-center -->
+        <div class="flex-d jc-between foot-player-center column-dir">
+            <div class="player">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-circle-play"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-rotate-right"></i>
+            </div>
+
+            <div class="flex-d">
+                <div class="timer">0:25</div>
+                <div class="rigid-bar">
+                    <div class="intern-r-b"></div>
+                </div>
+                <div class="timer">4:35</div>
+            </div>
+        </div>
+
+            <!-- player-right -->
+        <div class="flex-d jc-between foot-player-right">
+            <div>
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-display"></i>
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+            <div class="volume">
+                <div class="volume-in"></div>
+            </div>
+        </div>
         
     </footer>   
 </body>
