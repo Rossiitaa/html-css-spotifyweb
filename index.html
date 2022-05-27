@@ -19,11 +19,23 @@
                     <div class="logo">
                         <img src="./img/logo.svg" alt="logo-spotify">
                     </div>
+                    <div class="logo-small">
+                        <img src="./img//logo-small.svg" alt="logo-spotify">
+                    </div>
                     <div>
                         <ul>
-                            <li><i class="fa-solid fa-house"></i> Home</li>
-                            <li><i class="fa-solid fa-magnifying-glass"></i> Cerca</li>
-                            <li><i class="fa-solid fa-align-justify"></i> La tua liberia</li>
+                            <li class="flex-d">
+                                <i class="fa-solid fa-house"></i>
+                                <div class="space"> Home</div>
+                            </li>
+                            <li class="flex-d">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <div class="space"> Cerca</div>
+                            </li>
+                            <li class="flex-d">
+                                <i class="fa-solid fa-align-justify"></i>
+                                <div class="space"> La tua libreria</div>
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -49,13 +61,20 @@
                     </nav>
 
                 <nav class="fled-d end-user">
-                    <span class="user flex-d column-dir">
-                        <div><i class="fa-solid fa-circle-arrow-down"></i> Installa app</div>
+                    <div class="user flex-d column-dir">
+
+                        <div class="flex-d">
+                            <i class="fa-solid fa-circle-arrow-down"></i> 
+                            <div class="space">Installa app</div>
+                        </div>
 
                         <hr>
 
-                        <div class="jdoe"><i class="fa-solid fa-user"></i> John Doe</div>
-                    </span>
+                        <div class="jdoe fled-d">
+                            <i class="fa-solid fa-user"></i> 
+                            <div class="space">John Doe</div>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </section>
@@ -162,51 +181,45 @@
 
     <footer class="flex-d jc-between">
             <!-- player-left -->
-        <div class="foot-player-left">
-            <div class="inf-song">
-
-                <img src="./img/sinister.jpeg" alt="img-song">
-
-                    <span class="title-singer">Sinister</span>
-
-                    <span class="icon-song">
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-folder"></i>
-                    </span>
-
-                    <span class="title-song">Brano Nome</span>
-
+        <div class="flex-d jc-between">
+        <div class="flex-d singer">
+                <img src="./img/sinister.jpeg" alt="logo-song">
+                <div class="name-song">
+                    <h3>Sinister</h3>
+                    <div>Brano Nome</div>
+                </div>
+                <div class="flex-d icon-song">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
             </div>
         </div>
-
             <!-- player-center -->
-        <div class="flex-d jc-between foot-player-center column-dir">
-            <div class="player">
-                <i class="fa-solid fa-shuffle"></i>
-                <i class="fa-solid fa-backward-step"></i>
-                <i class="fa-solid fa-circle-play"></i>
-                <i class="fa-solid fa-forward-step"></i>
-                <i class="fa-solid fa-rotate-right"></i>
+        <div class="player">
+            <div class="flex-d icon-player">
+                <a href="#"><i class="fa-solid fa-shuffle"></i></a>
+                <a href="#"></a><i class="fa-solid fa-backward-step"></i></a>
+                <a href="#"></a><i class="fa-regular fa-circle-play"></i></a>
+                <a href="#"></a><i class="fa-solid fa-forward-step"></i></a>
+                <a href="#"></a><i class="fa-solid fa-rotate-right"></i></a>
             </div>
-
-            <div class="flex-d">
-                <div class="timer">0:25</div>
+            <div class="flex-d jc-between time-song">
+                <div class="timer-l">0:25</div>
                 <div class="rigid-bar">
                     <div class="intern-r-b"></div>
                 </div>
-                <div class="timer">4:35</div>
+                <div class="timer-r">4:35</div>
             </div>
         </div>
-
             <!-- player-right -->
-        <div class="flex-d jc-between foot-player-right">
-            <div>
-                <i class="fa-solid fa-list"></i>
+        <div class="flex-d icon-right">
+            <div class="flex-d icon-volume">
+                <i class="fa-solid fa-list-ul"></i>
                 <i class="fa-solid fa-display"></i>
                 <i class="fa-solid fa-volume-high"></i>
-            </div>
-            <div class="volume">
-                <div class="volume-in"></div>
+                <div class="volume">
+                    <div class="intern-v"></div>
+                </div>
             </div>
         </div>
         
