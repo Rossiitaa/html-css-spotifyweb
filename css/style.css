@@ -69,6 +69,10 @@ ul {
 .fa-house  {
     color: #fff;
 }
+.home div {
+    color: #fff;
+    cursor: pointer;
+}
 
 /* playlist */
 .height-playlist {
@@ -107,6 +111,9 @@ hr {
     top: -20px;
     left: 20px;
 }
+.color-hov-install {
+    color: #2f2f2f;
+}
 
 /* album */
 .album {
@@ -130,6 +137,7 @@ hr {
     margin-right: 215px;
 }
 
+
 /* options main */
 .options {
     width: 80%;
@@ -146,6 +154,12 @@ hr {
     padding: 20px;
     color: #5d5f66;
     font-weight: bold;
+}
+.border-inf {
+    width: 30px;
+    height: 3px;
+    margin: 3px auto;
+    border-left: 40px solid #99e22d;
 }
 
 /* song */
@@ -229,10 +243,11 @@ footer {
 .icon-player i{
     margin: 10px 15px;
     color: #fff;
+    cursor: pointer;
 }
 .rigid-bar {
     width: 45%;
-    height: 5px;
+    height: 8px;
     border: 1px solid;
     border-radius: 5px;
     background-color: #5a5a5a;
@@ -254,10 +269,10 @@ footer {
 .timer-r {
     margin-left: 10px;
 }
-
 .intern-r-b {
-    width: 20%;
-    height: 3px;
+    width: 30%;
+    height: 6px;
+    border-radius: 10px;
     background-color: #c1c1c1;
 }
 /* player-right */
@@ -272,18 +287,50 @@ footer {
     color: #fff;
 }
 .volume {
-    width: 5vw;
-    height: 4px;
+    width: 6vw;
+    height: 8px;
     border: 1px solid;
     border-radius: 5px;
     background-color: #5a5a5a;
 }
 .intern-v {
-    width: 20%;
-    height: 3px;
+    width: 30%;
+    height: 6px;
+    border-radius: 10px;
     background-color: #c1c1c1;
 }
 
+/* hover */
+.button:hover {
+    font-size: 18px;
+    cursor: pointer;
+}
+li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+.create:hover {
+    color: #fff;
+}
+.color-hov-install:hover {
+    color: #fff;
+}
+/* footer hover */
+.name-song div:hover {
+    text-decoration: underline;
+}
+.icon-song i:hover {
+    color: #fff;
+}
+.fa-circle-play:hover {
+    font-size: 25px;
+}
+.intern-r-b:hover {
+    background-color: #ADFF2F;
+}
+.intern-v:hover {
+    background-color: #ADFF2F;
+}
 
 
 /* breakpoint */
