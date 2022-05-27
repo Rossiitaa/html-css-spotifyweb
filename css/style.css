@@ -32,6 +32,17 @@ a {
     display: none;
 }
 
+.circle {
+    display: none;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 14px;
+    right: 52vw;
+}
  /* main */
 main {
     width: 100%;
@@ -72,6 +83,14 @@ ul {
 .home div {
     color: #fff;
     cursor: pointer;
+}
+.play-hover {
+    font-size: 60px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    display: none;
+    color: #fff;
 }
 
 /* playlist */
@@ -183,6 +202,9 @@ hr {
 .all-album h4 {
     margin-bottom: 10px;
     color: #fff;
+}
+.img-album {
+    position: relative;
 }
 
 /* per Jogn Doe */
@@ -315,6 +337,13 @@ li:hover {
 .color-hov-install:hover {
     color: #fff;
 }
+/* album hover */
+.img-album:hover .play-hover {
+    display: block;
+}
+.singol-album:hover img {
+    opacity: 0.5;
+}
 /* footer hover */
 .name-song div:hover {
     text-decoration: underline;
@@ -325,11 +354,14 @@ li:hover {
 .fa-circle-play:hover {
     font-size: 25px;
 }
-.intern-r-b:hover {
+.rigid-bar:hover .intern-r-b {
     background-color: #ADFF2F;
 }
-.intern-v:hover {
+.volume:hover .intern-v{
     background-color: #ADFF2F;
+}
+.rigid-bar:hover .circle {
+    display: inline-block;
 }
 
 
